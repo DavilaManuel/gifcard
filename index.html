@@ -4,46 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--FONT AWESOME ICONS-->
-    <script src="https://kit.fontawesome.com/79e560cc16.js" crossorigin="anonymous"></script>
+    <!-- FONT AWESOME ICONS-->
+    <!-- <script src="https://kit.fontawesome.com/79e560cc16.js" crossorigin="anonymous"></script> -->
     <!--BOOSTRATP CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--CUSTOM CSS-->
     <link rel="stylesheet" href="css/styles.css">
     <title>A Gif Card for a special person</title>
 </head>
-<body>
+<body>  
+
+    <audio autoplay id="audio">
+        <source src="assets/Rio-Roma.mp3" type="audio/mp3">
+        <source src="assets/Rio-Roma.ogg" type="audio/ogg">
+    </audio>
     
-    <!--CONTAINER FORM-->
-    <div class="container-fluid p-5">
-        <div class="row p-9">
-            <div class="col-md-4 offset-md-4">
-                <div id="cardy" class="card animated zoomIn form-container">
-                    <div class="card-body">
-                        <!--TOP FORMULARIO-->
-                        <div class="container">
-                            <div class="row">
-                                <h3 class="">Una Gif Card para una persona especial</h3>
-                                <img class="" id="letterA" src="img/a1.png" alt="">    
-                            </div>
-                        </div>
-                        <!--BODY FORMULARIO-->
-                        <form action="" method="">
-                            <div class="form-group">
-                                <label for="exampleInputName">Palabra que uso para llamarte con cariño</label>
-                                <input type="text" class="form-control" name="name" placeholder="Nombre" >
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputNumber">Tu número favorito</label>
-                                <input type="number" class="form-control" name="number" placeholder="Número" >
-                            </div>
-                            <div class="form-group">
-                                <button class="btn btn-primary btn-block" type="submit">
-                                    Abrir regalo
-                                </button>
-                            </div>
-                        </form>
-                    </div>
+    <div class="wrapper">
+        <div id="scene">
+            <div class="snow">
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+                <div class="flake"></div>
+            </div>
+            <div class="text">
+                <h1>Te amo mucho</h1>
+                <h2>Alejandra</h2>
+            </div>
+            <div class="tree one"></div>
+            <div class="tree two"></div>
+            <div class="tree three"></div>
+            <div class="tree four"></div>
+            <div class="tree five"></div>
+        </div>
+        <!--.bea -->
+        <div class="platform">
+            <div class="quote">Espero te guste la bola de nieve</div>
+            <div class="container">
+                <div class="row">
+                    <button class="btn btn-outline-danger col-lg-6 mt-3 text-center" id="button">Escucha</button>
                 </div>
             </div>
         </div>
@@ -52,7 +97,7 @@
     <script src="js/main.js" type="text/javascript"></script>
     <!--BOOTSTRAP SCRIPT-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
